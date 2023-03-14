@@ -1,7 +1,9 @@
+import Masonry from "./components/masonry";
+
 function App() {
   return (
-    <div>
-      <h1>World Hello</h1>
+    <div className="bg-gray-100">
+      <Masonry />
     </div>
   );
 }
